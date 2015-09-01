@@ -3,3 +3,11 @@
   "name": "Agar.io Bot",
   "version": "1.0"
 }
+"content_scripts": [
+  {
+    "matches": [
+      "agar.io"
+    ],
+    "js": ["content.js"]
+  }
+]
